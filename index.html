@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Pac Man</title>
+  </head>
+  <body>
+    <div id="game-wrapper">
+      <div id="elements-wrapper">
+        <h1 id="title-text">Pac-Man!</h1>
+        <div id="game-holder"></div>
+        <div id="game-info">
+          <div id="lives">
+            <h1 class="game-info-text" id="lives-header">Lives:&nbsp;</h1>
+            <h1 id="lives-info" class="game-info-text">3</h1>
+          </div>
+          <div id="score">
+            <h1 class="game-info-text" id="score-header">Score:&nbsp;</h1>
+            <h1 id="score-info" class="game-info-text">0</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="pacman.js" defer></script>
+    <!-- <script src="pacmanMappings.js"></script> -->
+    <script src="initialMap2.js" defer></script>
+    <script src="ghosts.js" defer></script>
+    <script src="updateDOM.js"></script>
+
+    <!-- <script src="initialMap.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+    <!--include p5.collide2D addon library-->
+    <script src="https://unpkg.com/p5.collide2d"></script>
+  </body>
+</html>

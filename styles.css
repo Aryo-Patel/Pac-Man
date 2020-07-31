@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Permanent Marker", cursive;
+}
+
+#game-wrapper {
+  background-color: black;
+}
+#title-text {
+  color: #ffff00;
+}
+#elements-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#game-info {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.game-info-text {
+  color: white;
+}
+#score {
+  display: flex;
+}
+#lives {
+  display: flex;
+}
